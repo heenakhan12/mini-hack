@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    background-color: rgba(199, 168, 195, 0.267);
+}
+.container{
+    padding: 10px;
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgb(77, 95, 114);
+}
+
+.container .input{
+    width: 80%;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.container .btn{
+    width: 50px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.container ul{
+    list-style: none;
+    padding: 0;
+}
+
+.container li{
+    color: rgb(1, 27, 44);
+}
+.container li a{
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container #error{
+    color: red;
+    font-size: 14px;
+}

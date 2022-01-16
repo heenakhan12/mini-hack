@@ -1,0 +1,49 @@
+<!-- 2. Write a  program to count frequency of digits in a given number. 
+Example
+  Input :
+  any number=116540
+  output:
+
+  frequency of 1 = 2
+  frequency of 0 = 1
+  frequency of 2 = 0
+  frequency of 3 = 0
+  frequency of 4 = 1
+  frequency of 5 = 1
+  frequency of 6 = 1
+  frequency of 7 = 0
+  frequency of 8 = 0
+  frequency of 9 = 0
+  
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>frequency count</title>
+ </head>
+ <body>
+   <script>
+     var num=116540;
+     var n=num;
+     var freq=[];
+     var base=10;
+
+     for(var i=0;i<base;i++){
+       freq[i]=0;
+     }
+
+     while(num!=0){
+       var lastDigit=num%10;
+       num=parseInt(num/10);
+       freq[lastDigit]++;
+     }
+     document.write("frequency of each digit in  " +n+ "<br>");
+     for(var i=0;i<base;i++){
+       document.write("frequency of "+i+"  = "  +freq[i]+ "<br>");
+     }
+   </script>
+ </body>
+ </html>

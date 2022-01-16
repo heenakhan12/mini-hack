@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#section1{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#section2{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/img4.jpg');
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+}
+#section3{
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/img3.jpg');
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
